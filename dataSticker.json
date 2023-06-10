@@ -1,0 +1,20 @@
+[{
+    "animated": {
+        "1": "Ami Bụng Bự/1/24",
+        "2": "Kim & Yim/25/31",
+        "3": "Bạch Tuột/32/36",
+        "4": "Pokemon/37/41"
+    },
+    "static":{
+        "1": "Đậu Đỏ/1/22",
+        "2": "Heo Hồng/23/38",
+        "3": "Trọc Trắng/39/50",
+        "4": "Quỳnh Aka/51/78"
+    }
+
+},{
+    "recentStickers": [
+        "static/1", "static/4", "static/5", "animated/1", "animated/7", "static/30", "animated/17"
+    ]
+}
+]

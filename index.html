@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="appChat.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="vertical-nav">
+            <div class="nav-header">
+                <a href="#" class="nav-logo">
+                    <svg width="40" fill="none" height="22" viewBox="0 0 268 150" xmlns="http://www.w3.org/2000/svg">
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill="#26C6F9"
+                            transform="matrix(-0.865206 0.501417 0.498585 0.866841 195.571 0)"></rect>
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill-opacity="0.4"
+                            fill="url(#paint0_linear_7821_79167)"
+                            transform="matrix(-0.865206 0.501417 0.498585 0.866841 196.084 0)"></rect>
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill="#26C6F9"
+                            transform="matrix(0.865206 0.501417 -0.498585 0.866841 173.147 0)"></rect>
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill="#26C6F9"
+                            transform="matrix(-0.865206 0.501417 0.498585 0.866841 94.1973 0)"></rect>
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill-opacity="0.4"
+                            fill="url(#paint1_linear_7821_79167)"
+                            transform="matrix(-0.865206 0.501417 0.498585 0.866841 94.1973 0)"></rect>
+                        <rect rx="25.1443" width="50.2886" height="143.953" fill="#26C6F9"
+                            transform="matrix(0.865206 0.501417 -0.498585 0.866841 71.7728 0)"></rect>
+                        <defs>
+                            <linearGradient y1="0" x1="25.1443" x2="25.1443" y2="143.953" id="paint0_linear_7821_79167"
+                                gradientUnits="userSpaceOnUse">
+                                <stop></stop>
+                                <stop offset="1" stop-opacity="0"></stop>
+                            </linearGradient>
+                            <linearGradient y1="0" x1="25.1443" x2="25.1443" y2="143.953" id="paint1_linear_7821_79167"
+                                gradientUnits="userSpaceOnUse">
+                                <stop></stop>
+                                <stop offset="1" stop-opacity="0"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h3>Materials</h3>
+                </a>
+                <div class="nav-close-btn primary">
+                    <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+
+                </div>
+            </div>
+            <!-- end of vertical-nav -->
+            <ul class="nav-sideBar">
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">home</span>
+                        <p>Trang chủ</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">chat_bubble</span>
+                        <p>Tin nhắn</p>
+                        <span class="message-count">99+</span>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">stream</span>
+                        <p>Live</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">public</span>
+                        <p>Kênh thế giới</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">person</span>
+                        <p>Bạn bè</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">groups</span>
+                        <p>Nhóm</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">calendar_today</span>
+                        <p>Lịch</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12 active">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">insights</span>
+                        <p>Thống kê</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">insights</span>
+                        <p>Kho lưu trữ</p>
+                    </a>
+                </li>
+                <li class="mg-lr-12">
+                    <a href="#" class="item-padding">
+                        <span class="material-symbols-sharp">settings</span>
+                        <p>Cài đặt</p>
+                    </a>
+                </li>
+            </ul>
+            <!-- end of nav-sidebar -->
+        </div>
+        <!-- end of layout vertical navbar -->
+        <main class="content-wrapper">
+            <header class="header">
+                <div class="nav-topBar">
+                    <div class="actions-left">
+                        <div class="nav-menuBtn">
+                            <span class="material-symbols-sharp">menu</span>
+                        </div>
+                        <div class="nav-search">
+                            <label>
+                                <input type="text" placeholder="Tìm kiếm...">
+                                <div class="nav-icon-search"><span class="material-symbols-sharp">search</span></div>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- end of actions-left -->
+
+                    <div class="actions-right">
+                        <div class="theme-toggle">
+                            <span class="material-symbols-sharp" style="display: none;">light_mode</span>
+                            <span class="material-symbols-sharp active">dark_mode</span>
+                        </div>
+                        <div class="css-pr">
+                            <div class="nav-notifications">
+                                <span class="notice-count">9+</span>
+                                <span class="material-symbols-sharp">notifications</span>
+                            </div>
+                        </div>
+                        <div class="user-profile mg-l-8">
+                            <div class="user-info">
+                                <p>Xin chào, <b>Phan Văn Vẹn</b></p>
+                                <small class="text-muted">Admin</small>
+                            </div>
+                            <div class="user-photo mg-l-8">
+                                <img src="./images/img1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of actions right -->
+                </div>
+                <!-- end of nav-topbar -->
+            </header>
+            <!-- end of navBar -->
+            <article class="page-content">
+                <!-- appChat.html -->
+                <div class="app-chat">
+                    <div class="app-chat__left">
+                
+                        <div class="contact-list active">
+                            <div class="app-chat__left-header">
+                                <div class="search">
+                                    <input type="text" placeholder="Tìm liên lạc...">
+                                    <div class="icon-search">
+                                        <span class="material-symbols-sharp">search</span>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <ul class="app-chat__left-content">
+                                <li class="section-title">
+                                    <div>
+                                        <span>Liên lạc quan trọng</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile mg-l-8" id="id_i_14389493793493">
+                                        <div class="css-pr flx-center">
+                                            <div class="user-photo mg-l-8">
+                                                <img src="./images/user2.jpg" alt="">
+                                            </div>
+                                            <span class="user-status"></span>
+                                            <div style="position: absolute;" class="danger flx-center">
+                                                <span style="font-size: 55px;" class="material-symbols-sharp">block</span>
+                                            </div>
+                
+                                        </div>
+                                        <div class="user-info">
+                                            <p>Gia Khánh</p>
+                                            <span>Tuệ tồi thật anh ạ!Tuệ tồi thật anh ạ!Tuệ tồi thật anh ạ!</span>
+                                        </div>
+                                        <div class="css-pr sending-time">
+                                            <p class="text-nowrap">1 giờ</p>
+                                            <div class="icon">
+                                                <div class="icon-seen success ">
+                                                    <span class="material-symbols-sharp">done_all</span>
+                                                </div>
+                                                <div class="icon-notice-count none">
+                                                    <span class="notice-count">9+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="section-title">
+                                    <div>
+                                        <span>liên lạc</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile mg-l-8" id="id_rc_14389493793493">
+                                        <div class="css-pr flx-center">
+                                            <div class="user-photo mg-l-8">
+                                                <img src="./images/user2.jpg" alt="">
+                                            </div>
+                                            <span class="user-status"></span>
+                                            <div style="position: absolute;" class="danger flx-center">
+                                                <span style="font-size: 55px;" class="material-symbols-sharp">block</span>
+                                            </div>
+                
+                                        </div>
+                                        <div class="user-info">
+                                            <p>Gia Khánh</p>
+                                            <span>Tuệ tồi thật anh ạ!Tuệ tồi thật anh ạ!Tuệ tồi thật anh ạ!</span>
+                                        </div>
+                                        <div class="css-pr sending-time">
+                                            <p class="text-nowrap">1 giờ</p>
+                                            <div class="icon">
+                                                <div class="icon-seen success ">
+                                                    <span class="material-symbols-sharp">done_all</span>
+                                                </div>
+                                                <div class="icon-notice-count none">
+                                                    <span class="notice-count">9+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile mg-l-8 active" id="id_rc_19000003232">
+                                        <input type="hidden" value="123123" id="123123">
+                                        <div class="css-pr">
+                                            <div class="user-photo mg-l-8">
+                                                <img src="./images/user3.jpg" alt="">
+                                            </div>
+                                            <span class="user-status status-online"></span>
+                                        </div>
+                                        <div class="user-info">
+                                            <p>Gia Tuệ</p>
+                                            <span>Bạn: Bạn hãy hãnh diện vì tớ đã lấy hình bạn đi ạ!.</span>
+                                        </div>
+                
+                
+                                        <div class="sending-time">
+                                            <p class="text-nowrap">1 ngày</p>
+                                            <div class="icon">
+                                                <div class="icon-done none">
+                                                    <span class="material-symbols-sharp">done</span>
+                                                </div>
+                                                <div class="icon-seen none">
+                                                    <span class="material-symbols-sharp">done_all</span>
+                                                </div>
+                                                <div class="icon-notificationsOff none">
+                                                    <!-- <span class="material-symbols-sharp">notifications_off</span> -->
+                                                    <ion-icon name="notifications-off"></ion-icon>
+                                                </div>
+                                            </div>
+                
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="section-title">
+                                    <div>
+                                        <span>nhóm</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile mg-l-8">
+                                        <div class="css-pr flx-center">
+                                            <div class="user-photo mg-l-8">
+                                                <img src="./images/user2.jpg" alt="">
+                                            </div>
+                                            <span class="user-status"></span>
+                                            <div style="position: absolute;" class="danger flx-center">
+                                                <span style="font-size: 55px;" class="material-symbols-sharp">block</span>
+                                            </div>
+                                        </div>
+                                        <div class="user-info">
+                                            <p>Gia Khánh</p>
+                                            <span>@Student</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile mg-l-8" id="id_19000003232">
+                                        <div class="css-pr">
+                                            <div class="user-photo mg-l-8">
+                                                <img src="./images/user3.jpg" alt="">
+                                            </div>
+                                            <span class="user-status status-online"></span>
+                                        </div>
+                                        <div class="user-info">
+                                            <p>Gia Tuệ</p>
+                                            <span>@Student</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact-info" id="id_user_19000003232">
+                            <div class="app-chat__left-header">
+                                <div class="closeBtn">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </div>
+                                <div class="user-profile mg-l-8">
+                                    <div class="css-pr">
+                                        <div class="user-photo mg-l-8">
+                                            <img src="./images/user3.jpg" alt="">
+                                        </div>
+                                        <span class="user-status status-online"></span>
+                                    </div>
+                                    <div class="user-info">
+                                        <p>Gia Tuệ</p>
+                                        <span>@Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="app-chat__left-content">
+                                <li class="section-title">
+                                    <div>
+                                        <span>Giới Thiệu</span>
+                                    </div>
+                                </li>
+                                <li class="section-content">
+                                    <p>Tân sinh viên Luật thương mại quốc tế, Đại học Kinh tế-Luật - ĐHQG.TPHCM, MUA
+                                        MACBOOK, RỚT TIẾNG ANH ĐẦU VÀO</p>
+                                </li>
+                
+                                <li class="section-title">
+                                    <div>
+                                        <span>Thông tin cá nhân</span>
+                                    </div>
+                                </li>
+                
+                                <li class="section-content">
+                                    <div>
+                                        <span class="material-symbols-sharp">mail</span>
+                                        <p>giatue@gmail.com</p>
+                                    </div>
+                
+                                    <div>
+                                        <span class="material-symbols-sharp">call</span>
+                                        <p>096xxx999</p>
+                                    </div>
+                                    <div>
+                                        <span class="material-symbols-sharp">event</span>
+                                        <p>01 tháng 01, 2004</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <span class="material-symbols-sharp">work</span>
+                                        <p>Student</p>
+                                    </div>
+                                </li>
+                
+                                <li class="section-title">
+                                    <div>
+                                        <span>Hành động</span>
+                                    </div>
+                                </li>
+                
+                                <li class="section-content end">
+                                    <div>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <p>Liên lạc quan trọng</p>
+                                    </div>
+                
+                                    <div>
+                                        <span class="material-symbols-sharp">warning</span>
+                                        <p>Báo xấu</p>
+                                    </div>
+                
+                                    <div>
+                                        <span class="material-symbols-sharp">block</span>
+                                        <p>Chặn tin nhắn</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end of app-chat__left -->
+                    <div class="app-chat__right">
+                        <div class="app-chat__right-header">
+                            <div class="user-profile mg-l-8" id="19000003232">
+                                <div class="css-pr flx-center">
+                                    <div class="user-photo mg-l-8">
+                                        <img src="./images/user3.jpg" alt="">
+                                    </div>
+                                    <span class="user-status status-online"></span>
+                                    
+                                </div>
+                                <div class="user-info">
+                                    <p>Gia Tuệ</p>
+                                    <span>Đang trực tuyến</span>
+                                </div>
+                               
+                            </div>
+                            <div class="actions-right">
+                                <div class="actions-right__search-input none">
+                                    <input type="text" placeholder="Tìm kiếm tin nhắn...">
+                                </div>
+                                <div class="actions-right__search">
+                                    <span class="material-symbols-sharp">search</span>
+                                </div>
+                                <div class="actions-right__phone-call">
+                                    <span class="material-symbols-sharp">call</span>
+                                </div>
+                                <div class="actions-right__video-call">
+                                    <span class="material-symbols-sharp">videocam</span>
+                                </div>
+                                <div class="actions-right__more-options">
+                                    <ion-icon name="ellipsis-vertical-sharp"></ion-icon>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <div class="message-view__banner none">
+                            <div class="message-view__banner__content">
+                                <div class="icon">
+                                    <ion-icon name="notifications-off"></ion-icon>
+                                </div>
+                                <span class="text-nowrap">Thông báo đang được tắt, mở lại để nhận thông báo tin
+                                    nhắn</span>
+                            </div>
+                        </div>
+                        <div class="app-chat__right-content">
+                            <div class="dragOverlayMessage">
+                                <div class="drag-title">
+                                    Gửi nhanh
+                                </div>
+                                <div class="drag-desc">
+                                    Thả files vào đây để gửi ngay, nhanh như cách người yêu cũ trở mặt
+                                </div>
+                            </div>
+                            <div class="messageViewContainer">
+                                <div class="chat-date">
+                                    <div class="time-line">
+                                        <span>18:54 ngày 06/12/2022</span>
+                                    </div>
+                                </div>
+                                <div class="chat-item">
+                                    <div class="user-profile mg-l-8">
+                                        <div class="user-photo mg-l-8">
+                                            <img src="./images/user3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="chat-content">
+                                        <div class="chat-message" id="id_msg_20221017483938550">
+                                            <div class="chat-message__actionHolder" style="min-width: 120px;">
+                                                <div class="chat-message__actions">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text">
+                                                <div class="react-list">
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Vẹn, tôi là Diệp Gia Tuệ, tôi thấy bạn đã sử dụng
+                                                        hình ảnh của tôi cho việc phát triển website trong dự án của
+                                                        bạn, vì chưa có sự cho phép của tôi, bạn đã tự ý sử dụng. Vui
+                                                        lòng gỡ hình ảnh của tôi xuống, trước khi mọi chuyện trở nên tồi
+                                                        tệ hơn, tôi là một luật sư tương lai, hy vọng bạn hiểu được ý
+                                                        tôi.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message" id="id_msg_20221017483938586">
+                                            <div class="chat-message__actionHolder" style="min-width: 120px;">
+                                                <div class="chat-message__actions">
+                
+                                                </div>
+                                            </div>
+                                            <div class="card card--text">
+                                                <div class="message-content">
+                                                    <span>Mong bạn nhanh chóng thực hiện sau khi đọc tin nhắn này.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list">
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message" id="id_msg_20221017483333938586">
+                                            <div class="chat-message__actionHolder" style="min-width: 120px;">
+                                                <div class="chat-message__actions">
+                
+                                                </div>
+                                            </div>
+                                            <div class="card card--emoji">
+                                                <div class="message-content">
+                                                    <div class="react-icon">
+                                                        <span style="background: url(assets/emoji-materials.png) 82% 0% / 5100%;
+                                                        width: 50px;
+                                                        height: 50px;
+                                                        margin-bottom: 1px;">
+                
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="react-list">
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message" id="id_msg_20221017938586">
+                                            <div class="chat-message__actionHolder" style="min-width: 120px;">
+                                                <div class="chat-message__actions">
+                
+                                                </div>
+                                            </div>
+                                            <div class="card card--sticker">
+                                                <div class="message-content">
+                                                    <div class="sticker-zone">
+                                                        <div class="sticker animated" style="
+                                                        background-image: url(./sprite.png);
+                                                        width: 130px;
+                                                        height: 130px;
+                                                        ">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="react-list"></div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="sending-time">
+                                            <span>13:20 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-item me">
+                                    <div>
+                                        <div class="user-photo mg-l-8 me">
+                                            <img src="./images/img1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="chat-content me">
+                                        <div class="chat-message me" id="id_msg_000">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                                            <div class="card card--text me">
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chat-message me" id="id_msg_00">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div class="react-list me">
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Bạn hãy hãnh diện vì tớ đã lấy hình bạn đi ạ!.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_00987890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017483938550" class="reply-message">
+                                                    <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                    <div class="text-nowrap">
+                                                        <span>
+                                                            Chào bạn Vẹn, tôi là Diệp Gia Tuệ, tôi thấy bạn đã sử dụng
+                                                            hình ảnh của tôi cho việc phát triển website trong dự án của
+                                                            bạn, vì chưa có sự cho phép của tôi, bạn đã tự ý sử dụng.
+                                                            Vui lòng gỡ hình ảnh của tôi xuống, trước khi mọi chuyện trở
+                                                            nên tồi tệ hơn, tôi là một luật sư tương lai, hy vọng bạn
+                                                            hiểu được ý tôi.
+                                                        </span>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_0095454587890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="img"
+                                                        style="width: 50px; height: 40px; margin-right: 10px;">
+                                                        <img src="/images/4K.jpg"
+                                                            style="width: 100%; height: 100%; border-radius: 2px;">
+                                                    </div>
+                
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Hình ảnh]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_0095454587890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="file-zone">
+                                                        <div class="file-icon" style="width: 40px; height: 40px;">
+                                                            <div
+                                                                style="background-image: url(/Icons/icon-file-docx.svg);">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Tập tin]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_0095454587890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="file-zone">
+                                                        <div style="position: absolute;">
+                                                            SID
+                                                        </div>
+                                                        <div class="file-icon" style="width: 40px; height: 40px;">
+                                                            <div
+                                                                style="background-image: url(/Icons/icon-file-empty.svg);">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Tập tin]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_0095454587890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="sticker-zone" style="padding: 0; margin-right: 10px">
+                                                        <div class="sticker static"
+                                                            style="background-image: url(/webpc.png); width: 40px; height: 40px;">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Sticker]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_009545458789">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="sticker-zone" style="padding: 0; margin-right: 10px;">
+                                                        <div class="sticker animated"
+                                                            style="background-image: url(./sprite.png); width: 40px; height: 40px;">
+                
+                                                        </div>
+                                                    </div>
+                
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Sticker]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_0095454587890">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--text me">
+                                                <div id="20221017938586" class="reply-message"
+                                                    style="flex-direction: row; justify-content: start;">
+                                                    <div class="react-icon"
+                                                        style="display: flex; align-items: center; margin-right: 10px;">
+                                                        <span
+                                                            style="background: url(/assets/emoji-materials.png) 82% 0% / 5100%; width: 40px; height: 40px;"></span>
+                                                    </div>
+                
+                                                    <div
+                                                        style="display: flex; flex-direction: column; justify-content: center;">
+                                                        <span class="text-nowrap"><b>Gia Tuệ</b></span>
+                                                        <div class="text-nowrap">
+                                                            <span>
+                                                                [Emoji]
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="message-content">
+                                                    <span>Chào bạn Gia Tuệ.
+                                                    </span>
+                                                </div>
+                                                <div class="react-list me">
+                                                    <div class="react-icon-list">
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me image" id="id_msg_3">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                                                </div>
+                                            </div>
+                                            <div class="card card--image me">
+                                                <div class="react-list me">
+                                                </div>
+                                                <div class="message-content">
+                                                    <div class="img">
+                                                        <img src="/images/4K.jpg" alt=""
+                                                            style="width: 100%; height: 100%; border-radius: 8px;">
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                
+                                        <div class="chat-message me" id="id_msg_1110001">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--file me docx">
+                                                <div class="react-list me">
+                                                </div>
+                
+                                                <div class="file-zone">
+                                                    <div class="file-icon">
+                                                        <div style="background-image: url(/Icons/icon-file-docx.svg);">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="file-content message-content">
+                                                    <div class="file-head">
+                                                        <div class="file-name text-nowrap">
+                                                            Kiểm soát chất lượng phần mềm
+                                                        </div>
+                                                        <div class="dot-file">
+                                                            mềm.docx
+                                                        </div>
+                                                    </div>
+                                                    <div class="file-body">
+                                                        <div class="icon-download">
+                                                            <div>
+                                                                <ion-icon name="download-outline"></ion-icon>
+                                                            </div>
+                                                            <span>Tải xuống</span>
+                                                        </div>
+                
+                                                        <div class="file-size">
+                                                            3.4MB
+                                                        </div>
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- <div class="chat-message me" id="id_msg_111888">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="card card--file me xlsx">
+                                                <div class="react-list me">
+                                                </div>
+                                                
+                                                <div class="file-zone">
+                                                    <div class="file-icon">
+                                                        <div style="background-image: url(/Icons/icon-file-xlsx.svg);"></div>
+                                                    </div>
+                                                </div> 
+                
+                                                <div class="file-content message-content">
+                                                    <div class="file-head">
+                                                        <div class="file-name text-nowrap">
+                                                            Kiểm soát chất lượng phần mềm
+                                                        </div>
+                                                        <div class="dot-file">
+                                                            mềm.xlsx
+                                                        </div>
+                                                    </div>
+                                                    <div class="file-body">
+                                                
+                                                        <div class="icon-download">
+                                                            <div>
+                                                                <ion-icon name="download-outline"></ion-icon>
+                                                            </div>
+                                                            <span>Tải xuống</span>
+                                                        </div>
+                                                        
+                                                        <div class="file-size">
+                                                            3.4MB
+                                                        </div>
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div> -->
+                
+                                        <div class="chat-message me" id="id_msg_122fd22111">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--file me">
+                                                <div class="react-list me">
+                                                </div>
+                
+                                                <div class="file-zone">
+                                                    <div class="file-icon">
+                                                        <div style="background-image: url(/Icons/icon-file-pdf.svg);">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="file-content message-content">
+                                                    <div class="file-head">
+                                                        <div class="file-name text-nowrap">
+                                                            Kiểm soát chất lượng phần mềm
+                                                        </div>
+                                                        <div class="dot-file">
+                                                            mềm.pdf
+                                                        </div>
+                                                    </div>
+                                                    <div class="file-body">
+                
+                                                        <div class="icon-download">
+                                                            <div>
+                                                                <ion-icon name="download-outline"></ion-icon>
+                                                            </div>
+                                                            <span>Tải xuống</span>
+                                                        </div>
+                
+                                                        <div class="file-size">
+                                                            3.4MB
+                                                        </div>
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="chat-message me" id="id_msg_111222221">
+                                            <div class="chat-message__actionHolder me" style="min-width: 120px;">
+                                                <div class="chat-message__actions me">
+                
+                                                </div>
+                                            </div>
+                
+                                            <div class="card card--file me">
+                                                <div class="react-list me">
+                                                </div>
+                
+                                                <div class="file-zone">
+                                                    <div style="position: absolute;">
+                                                        SID
+                                                    </div>
+                                                    <div class="file-icon">
+                                                        <div style="background-image: url(/Icons/icon-file-empty.svg);">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="file-content message-content">
+                                                    <div class="file-head">
+                                                        <div class="file-name text-nowrap">
+                                                            Kiểm soát chất lượng phần mềm
+                                                        </div>
+                                                        <div class="dot-file">
+                                                            mềm.sid
+                                                        </div>
+                                                    </div>
+                                                    <div class="file-body">
+                
+                                                        <div class="icon-download">
+                                                            <div>
+                                                                <ion-icon name="download-outline"></ion-icon>
+                                                            </div>
+                                                            <span>Tải xuống</span>
+                                                        </div>
+                
+                                                        <div class="file-size">
+                                                            3.4MB
+                                                        </div>
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="sending-time me">
+                                            <div class="icon-send-done none">
+                                                <span class="material-symbols-sharp">done</span>
+                                            </div>
+                                            <div class="icon-send-doneAll">
+                                                <span class="material-symbols-sharp">done_all</span>
+                                            </div>
+                                            <span>13:36 PM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                
+                            <!-- <div class="scrollBar-V" style="
+                                position: absolute;
+                                width: 8px;
+                                opacity: 1;
+                                right: 2px;
+                                bottom: 2px;
+                                top: 2px;
+                                border-radius: 3px;">
+                                <div draggable="true" style="    
+                                    position: relative;
+                                    display: block;
+                                    width: 8px;
+                                    border-radius: 6px;
+                                    margin: 0px 2px;
+                                    background-color: var(--border);
+                                    opacity: 1;
+                                    right: 0px;
+                                    height: 101px;
+                                    transform: translateY(159.316px);">
+                                </div>
+                            </div> -->
+                
+                        </div>
+                
+                        <div class="app-chat__right-footer">
+                            <div class="chat-input__content">
+                                <div class="message-input">
+                                    <input type="text" id="mess-input" placeholder="Trò chuyện với Gia Tuệ...">
+                                </div>
+                                <div class="actions-right__bottom">
+                                    <div class="attach-file" onclick="uploadFile();">
+                                        <span class="material-symbols-sharp">attach_file</span>
+                                        <!-- <input type="file" hidden="hidden" id="upload-file"> -->
+                                    </div>
+                                    <div class="image-file" onclick="uploadImage();">
+                                        <ion-icon name="image-outline"></ion-icon>
+                                        <!-- <input type="file" hidden="hidden" id="upload-img"> -->
+                                    </div>
+                                    <div class="sticker-options">
+                                        <img src="./Icons/sticker.png" alt="gửi sticker" width="18px;" height="18px;">
+                                    </div>
+                                    <div class="reaction-options">
+                                        <ion-icon name="happy-outline"></ion-icon>
+                                        <!-- <span class="material-symbols-sharp">mood</span> -->
+                                    </div>
+                                    <!-- <div class="quick-reaction none">
+                                        <div class="react-icon">    
+                                            <span style="background: url(assets/emoji-materials.png) 82% 7.5% / 5100%;"></span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                
+                            <!-- <div class="preview-content">
+                                <div class="quantity-title">
+                                    <div>
+                                        <span class="img-quantity">4</span>
+                                        <span class="title">ảnh đã được chọn</span>
+                                    </div>
+                                    <div>
+                                        <span class="file-quantity">2</span>
+                                        <span class="title">tập tin đã được chọn</span>
+                                    </div>
+                                </div>
+                                <div class="preview-list">
+                                    <div>
+                                        <div class="preview-item preview-item--image">
+                                            <div class="preview-item__thum">
+                                                <div style="background-image: url(/images/dog1.jpg);">
+                                                </div>
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="preview-item preview-item--image">
+                                            <div class="preview-item__thum">
+                                                <div style="background-image: url(/images/dog1.jpg);">
+                                                </div>
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="preview-item preview-item--image">
+                                            <div class="preview-item__thum">
+                                                <div style="background-image: url(/images/dog1.jpg);">
+                                                </div>
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="preview-item preview-item--image">
+                                            <div class="preview-item__thum">
+                                                <div style="background-image: url(/images/4K.jpg);">
+                                                </div>
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="preview-item preview-item--file">
+                                            <div class="preview-item__thum file-icon">
+                                                <div style="background-image: url(/Icons/icon-file-excel.svg);">
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                
+                                        <div class="preview-item preview-item--file">
+                                            <div class="preview-item__thum file-icon">
+                                                <div class="dot-file">
+                                                    SID
+                                                </div>
+                                                <div style="background-image: url(/Icons/icon-file-empty.svg);">
+                                                </div>
+                                            </div>
+                                            <div class="close" style="position: absolute;">
+                                                <ion-icon name="close-circle"></ion-icon>
+                                            </div>
+                                        </div>
+                                        
+                
+                                    </div>
+                                    
+                                </div>
+                            </div> -->
+                
+                            
+                
+                
+                            <!-- <div class="quote-banner" >
+                                <div class="${mesPos} quote-banner-name">
+                                    <div style="display: flex; align-items: center;">
+                                        <div class="img" style="width: 47px; height: 37px; margin-right: 10px;">
+                                            <img src="/images/4K.jpg" style="width: 100%; height: 100%; border-radius: 2px;">
+                                        </div>
+                                    </div>
+                
+                                    <div class="file-zone">
+                                        <div class="file-icon" style="width: 37px; height: 37px;">
+                                            <div style="background-image: url(/Icons/icon-file-docx.svg);"></div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="react-icon" style="display: flex; align-items: center; margin-right: 10px; justify-content: center;">
+                                        <span style="background: url(/assets/emoji-materials.png) 82% 0% / 5100%; width: 37px; height: 37px;"></span>
+                                    </div>
+                
+                                    <div class="sticker-zone">
+                                        <div class="sticker animated" style="background-image: url(./sprite.png); width: 37px; height: 37px;"></div>
+                                    </div>
+                                    <div class="text-nowrap" style="display: flex; flex-direction: column;">
+                                        <span class="text-nowrap">Trả lời <b class="primary">Gia Tuệ</b></span>
+                                        <div>
+                                            <span class="text-nowrap">Chào bạn Vẹn, tôi là Diệp Gia Tuệ, tôi thấy bạn đã sử dụng hình ảnh của tôi cho việc phát triển website trong dự án của bạn, vì chưa có sự cho phép của tôi, bạn đã tự ý sử dụng. Vui lòng gỡ hình ảnh của tôi xuống, trước khi mọi chuyện trở nên tồi tệ hơn, tôi là một luật sư tương lai, hy vọng bạn hiểu được ý tôi.</span>
+                                            <div>
+                                                <ion-icon name="arrow-undo"></ion-icon>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote-close">
+                                    <ion-icon name="close-circle"></ion-icon>
+                                </div>
+                            </div> -->
+                        </div>
+                
+                    </div>
+                </div>
+                <script>
+                    const closeImgPreview_NodeList = document.querySelectorAll('.preview-item .close');
+                    closeImgPreview_NodeList.forEach((closeBtn) => {
+                        closeBtn.addEventListener('click', () => {
+                            const par = findParent($(closeBtn), 'preview-item')[0];
+                            if (par.classList.contains('preview-item--file')) {
+                                let count = parseInt(document.querySelector('.file-quantity').innerText);
+                                count -= 1;
+                                if (count) {
+                                    document.querySelector('.file-quantity').innerText = count;
+                
+                                } else {
+                                    document.querySelector('.file-quantity').parentElement.remove();
+                                }
+                
+                            } else {
+                                let count = parseInt(document.querySelector('.img-quantity').innerText);
+                                count -= 1;
+                                if (count) {
+                                    document.querySelector('.img-quantity').innerText = count;
+                
+                                } else {
+                                    document.querySelector('.img-quantity').parentElement.remove();
+                                }
+                            }
+                            par.remove();
+                
+                            if (document.querySelectorAll('.preview-item .close').length < 1) {
+                                document.querySelector('.preview-content').remove();
+                            }
+                        })
+                    })
+                
+                </script>
+                <!-- <div class="main-content">
+                    <div class="content-left">
+                        <div class="top-list">
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>2,034</h5>
+                                    <span class="text-muted">Lượt yêu thích</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="hand-right-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>2,034</h5>
+                                    <span class="text-muted">Lượt tương tác</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="timer-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>2,034</h5>
+                                    <span class="text-muted">Giờ truy cập</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>2,034</h5>
+                                    <span class="text-muted">Tin nhắn</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>800</h5>
+                                    <span class="text-muted">Upload</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="download-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>299</h5>
+                                    <span class="text-muted">Download</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="share-social-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>12</h5>
+                                    <span class="text-muted">Chia sẽ</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>300</h5>
+                                    <span class="text-muted">Bạn bè</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>300</h5>
+                                    <span class="text-muted">Bạn bè</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>300</h5>
+                                    <span class="text-muted">Bạn bè</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>300</h5>
+                                    <span class="text-muted">Bạn bè</span>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <div class="icon">
+                                    <ion-icon name="people-outline"></ion-icon>
+                                </div>
+                                <div class="content text-nowrap">
+                                    <h5>300</h5>
+                                    <span class="text-muted">Bạn bè</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="middle-list">
+                            <div class="middle-item-1">
+                                <div class="user">
+                                    <div class="user-photo mg-l-8">
+                                        <img src="./images/img1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="user-name">
+                                    <p>Phan Văn Vẹn</p>
+                                </div>
+
+                                <div class="interaction-list">
+                                    <div class="interaction-item">
+                                        <span>Post</span>
+                                        <h5>400</h5>
+                                    </div>
+                                    <div class="interaction-item">
+                                        <span>Followers</span>
+                                        <h5>12,400</h5>
+                                    </div>
+                                    <div class="interaction-item">
+                                        <span>Following</span>
+                                        <h5>99</h5>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                            <div class="middle-item-3">
+                               Nội dung đang biên soạn...
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="bottom">
+                            <div class="bottom-title">
+                                <h5>Huy hiệu</h5>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="content-right">
+                        <div class="content-right__header">
+                            <h5>Đang trực tuyến</h5>
+                        </div>
+                        <div class="content-right__body">
+                            <div class="content-right__list">
+                                <div class="content-right__item mg-b-8 pad-8 radius-6">
+                                    <div class="user-profile" id="id_19000003232">
+                                        <div class="css-pr">
+                                            <div class="user-photo">
+                                                <img src="./images/user3.jpg" alt="">
+                                            </div>
+                                            <span class="user-status status-online"></span>
+                                        </div>
+                                        <div class="user-info flx-center mg-l-8">
+                                            <p>Gia Tuệ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-right__item">
+                                    2
+                                </div>
+                                <div class="content-right__item">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </article>
+            <!-- end of main body -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>© 2022, Made with
+                        <svg class="heart" viewBox="0 0 32 29.6">
+                            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                            c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+                        </svg> by <a href="#">Phăn Văn Vẹn</a>
+                    </p>
+                </div>
+            </footer>
+        </main>
+        <!-- end of main -->
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <script type="text/javascript" src="modalRoot.js"></script> -->
+    <script type="text/javascript" src="functions.js"></script>
+    <script type="text/javascript" src="Popover.js"></script>
+    <script type="text/javascript" src="appChat.js"></script>
+    <script type="text/javascript" src="handleAppChat.js"></script>
+    <script type="text/javascript" src="Emoji.js"></script>
+    <script type="text/javascript" src="eventListener.js"></script>
+
+    <div class="inset">
+        <!-- <div class="inset" style="inset: 0; position: absolute; background-color: rgba(0, 0, 0, 0.6);"> -->
+        <div class="popover">
+            <!-- <div class="popover" style="z-index: 1000; position: absolute; left: 200px; top: 200px; opacity: 1;"> -->
+
+        </div>
+    </div>
+
+    <!-- <div class="popover-v1">
+        <div class="content">
+            <ul class="menu">
+                <li class="item">
+                    <span class="text-nowrap">Bỏ ghim</span>
+                </li>
+                <li class="item">
+                    <span class="text-nowrap">Tắt thông báo</span>
+                </li>
+                <li class="item">
+                    <span class="text-nowrap">Chặn tin nhắn</span>
+                </li>
+                <li class="item">
+                    <span class="text-nowrap">Báo xấu</span>
+                </li>
+                <li class="menu-separate"></li>
+                <li class="item danger">
+                    <span class="text-nowrap">Xóa hội thoại</span>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <style>
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .content-left {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-left .top-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .content-left .top-list .top-item {
+            padding: 16px 20px;
+            border-radius: 8px;
+            background-color: var(--white);
+            display: flex;
+            align-items: center;
+            box-shadow: rgb(76 78 100 / 22%) 0px 2px 10px 0px;
+
+        }
+
+        .content-left .top-list .top-item .icon {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        .content-left .top-list .top-item .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--primary);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            color: var(--white);
+        }
+
+
+        .content-left .top-list .top-item .content>h5 {
+            font-size: 18px;
+        }
+
+        .content-left .top-list .top-item .content>span {
+            font-size: 13px;
+        }
+
+        /* middle-list */
+
+        .content-left .middle-list{
+            height: 100%;
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 3fr 6fr;
+            gap: 16px;
+        }
+
+        .content-left .middle-list .middle-item-1{
+            background-color: var(--white);
+            box-shadow: rgb(76 78 100 / 22%) 0px 2px 10px 0px;
+            border-radius: 10px;
+            padding: 16px 20px;
+        }
+
+        .content-left .middle-list .middle-item-1 .user{
+            width: 80px;
+            height: 80px;
+            margin: auto;
+        }
+
+        .content-left .middle-list .middle-item-1 .user-photo mg-l-8{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        .content-left .middle-list .middle-item-1 .user-name{
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .content-left .middle-list .middle-item-1 .interaction-list{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px;
+            font-size: 13px;
+            text-align: center;
+        }
+        .content-left .middle-list .middle-item-1 .interaction-list h5{
+            font-size: 18px;
+        }
+
+        .content-right {
+            margin-left: 20px;
+            width: 260px;
+        }
+
+        .content-right .content-right__header h5{
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .content-right__item{
+            background-color: #ccc;
+        }
+
+
+    </style>
+
+    
+
+</body>
+
+</html>
